@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ColourTableViewCell.h
 //  Oefening-UITableView-2-master
 //
 //  Created by Jean Smits on 20/08/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ColourTableViewCell : UITableViewCell
 
+- (void) createCells:(UIColor *) colour;
 
 @end
-

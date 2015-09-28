@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEF01F061B8B0FBE0095AE8B /* FontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF01F051B8B0FBE0095AE8B /* FontTableViewController.m */; };
+		BEF01F091B8B10160095AE8B /* FontTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF01F081B8B10160095AE8B /* FontTableViewCell.m */; };
 		BEF060AC1B85FE5E00B54699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060AB1B85FE5E00B54699 /* main.m */; };
 		BEF060AF1B85FE5E00B54699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060AE1B85FE5E00B54699 /* AppDelegate.m */; };
-		BEF060B21B85FE5E00B54699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060B11B85FE5E00B54699 /* ViewController.m */; };
 		BEF060B51B85FE5E00B54699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF060B31B85FE5E00B54699 /* Main.storyboard */; };
 		BEF060B71B85FE5E00B54699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF060B61B85FE5E00B54699 /* Images.xcassets */; };
 		BEF060BA1B85FE5E00B54699 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF060B81B85FE5E00B54699 /* LaunchScreen.xib */; };
 		BEF060C61B85FE5F00B54699 /* Oefening_UITableView_2_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060C51B85FE5F00B54699 /* Oefening_UITableView_2_masterTests.m */; };
+		BEF060D41B860B1B00B54699 /* ColourTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060D31B860B1B00B54699 /* ColourTableViewCell.m */; };
+		BEF060D71B860BB000B54699 /* ColourTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060D61B860BB000B54699 /* ColourTableViewController.m */; };
+		BEF060DA1B8611D500B54699 /* OverViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060D91B8611D500B54699 /* OverViewTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BEF01F041B8B0FBE0095AE8B /* FontTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTableViewController.h; sourceTree = "<group>"; };
+		BEF01F051B8B0FBE0095AE8B /* FontTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTableViewController.m; sourceTree = "<group>"; };
+		BEF01F071B8B10160095AE8B /* FontTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTableViewCell.h; sourceTree = "<group>"; };
+		BEF01F081B8B10160095AE8B /* FontTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTableViewCell.m; sourceTree = "<group>"; };
 		BEF060A61B85FE5E00B54699 /* Oefening-UITableView-2-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oefening-UITableView-2-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF060AA1B85FE5E00B54699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF060AB1B85FE5E00B54699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEF060AD1B85FE5E00B54699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEF060AE1B85FE5E00B54699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BEF060B01B85FE5E00B54699 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEF060B11B85FE5E00B54699 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEF060B41B85FE5E00B54699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEF060B61B85FE5E00B54699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEF060B91B85FE5E00B54699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BEF060BF1B85FE5F00B54699 /* Oefening-UITableView-2-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oefening-UITableView-2-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF060C41B85FE5F00B54699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF060C51B85FE5F00B54699 /* Oefening_UITableView_2_masterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oefening_UITableView_2_masterTests.m; sourceTree = "<group>"; };
+		BEF060D21B860B1B00B54699 /* ColourTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourTableViewCell.h; sourceTree = "<group>"; };
+		BEF060D31B860B1B00B54699 /* ColourTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourTableViewCell.m; sourceTree = "<group>"; };
+		BEF060D51B860BB000B54699 /* ColourTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourTableViewController.h; sourceTree = "<group>"; };
+		BEF060D61B860BB000B54699 /* ColourTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourTableViewController.m; sourceTree = "<group>"; };
+		BEF060D81B8611D500B54699 /* OverViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverViewTableViewController.h; sourceTree = "<group>"; };
+		BEF060D91B8611D500B54699 /* OverViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverViewTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +93,12 @@
 		BEF060A81B85FE5E00B54699 /* Oefening-UITableView-2-master */ = {
 			isa = PBXGroup;
 			children = (
-				BEF060AD1B85FE5E00B54699 /* AppDelegate.h */,
-				BEF060AE1B85FE5E00B54699 /* AppDelegate.m */,
-				BEF060B01B85FE5E00B54699 /* ViewController.h */,
-				BEF060B11B85FE5E00B54699 /* ViewController.m */,
+				BEF060D01B85FE7A00B54699 /* App */,
 				BEF060B31B85FE5E00B54699 /* Main.storyboard */,
-				BEF060B61B85FE5E00B54699 /* Images.xcassets */,
 				BEF060B81B85FE5E00B54699 /* LaunchScreen.xib */,
+				BEF060D11B85FE8700B54699 /* Controllers */,
+				BEF060B61B85FE5E00B54699 /* Images.xcassets */,
+				BEF060CF1B85FE6E00B54699 /* Views */,
 				BEF060A91B85FE5E00B54699 /* Supporting Files */,
 			);
 			path = "Oefening-UITableView-2-master";
@@ -117,6 +128,39 @@
 				BEF060C41B85FE5F00B54699 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEF060CF1B85FE6E00B54699 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEF060D21B860B1B00B54699 /* ColourTableViewCell.h */,
+				BEF060D31B860B1B00B54699 /* ColourTableViewCell.m */,
+				BEF01F071B8B10160095AE8B /* FontTableViewCell.h */,
+				BEF01F081B8B10160095AE8B /* FontTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BEF060D01B85FE7A00B54699 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BEF060AD1B85FE5E00B54699 /* AppDelegate.h */,
+				BEF060AE1B85FE5E00B54699 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		BEF060D11B85FE8700B54699 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEF060D81B8611D500B54699 /* OverViewTableViewController.h */,
+				BEF060D91B8611D500B54699 /* OverViewTableViewController.m */,
+				BEF060D51B860BB000B54699 /* ColourTableViewController.h */,
+				BEF060D61B860BB000B54699 /* ColourTableViewController.m */,
+				BEF01F041B8B0FBE0095AE8B /* FontTableViewController.h */,
+				BEF01F051B8B0FBE0095AE8B /* FontTableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF060B21B85FE5E00B54699 /* ViewController.m in Sources */,
+				BEF01F091B8B10160095AE8B /* FontTableViewCell.m in Sources */,
+				BEF060DA1B8611D500B54699 /* OverViewTableViewController.m in Sources */,
 				BEF060AF1B85FE5E00B54699 /* AppDelegate.m in Sources */,
+				BEF060D71B860BB000B54699 /* ColourTableViewController.m in Sources */,
 				BEF060AC1B85FE5E00B54699 /* main.m in Sources */,
+				BEF01F061B8B0FBE0095AE8B /* FontTableViewController.m in Sources */,
+				BEF060D41B860B1B00B54699 /* ColourTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +464,7 @@
 				BEF060CB1B85FE5F00B54699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEF060CC1B85FE5F00B54699 /* Build configuration list for PBXNativeTarget "Oefening-UITableView-2-masterTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +473,7 @@
 				BEF060CE1B85FE5F00B54699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
